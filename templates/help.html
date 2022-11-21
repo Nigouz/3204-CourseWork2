@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+ <meta charset="utf-8" />
+</head>
+<body>
+<div class="root">
+	<div class="kmeans">
+	 <!-- kmeans -->
+		<br>
+		<h1 align="left">kmeans Graphs:</h1>
+		<div class="kmeans_graphs" align="center">
+			<img src="{{url_for('static', filename='kmeans_scatterplot.png')}}" align="middle" />
+		</div>
+	</div>
+
+	<div class="knn">
+	<!-- knn -->
+		<br>
+		<h1 align="left">knn Graphs:</h1>
+		<div class="kmeans_graphs" align="center">
+			<img src="{{url_for('static', filename='KNN_graph.png')}}" align="middle" />
+			<img src="{{url_for('static', filename='KNN_ConfusionMatrix.png')}}" align="middle" />
+			<img src="{{url_for('static', filename='F1_comparison.png')}}" align="middle" />
+			<img src="{{url_for('static', filename='Recall_comparison.png')}}" align="middle" />
+		</div>
+	</div>
+
+	<div class="rf">
+	<!-- rf -->
+		<br>
+		<h1>rf Graphs:</h1>	
+	</div>
+
+	<div class="algo" align="middle">
+	<!-- algo -->
+		<br>
+		<h1 align="left">algo Graphs:</h1>
+		<div class="kmeans_graphs" align="center">
+
+			<img src="{{url_for('static', filename='ProcessingTime_Comparison.png')}}" align="middle" />
+			<img src="{{url_for('static', filename='AnP_Comparison.png')}}" align="middle" />
+			<img src="{{url_for('static', filename='Accuracy_comparison.png')}}" align="middle" />
+			<img src="{{url_for('static', filename='precision_comparison.png')}}" align="middle" />
+		</div>
+    </div>    
+</div>
+</body>
+</html>
