@@ -1,5 +1,11 @@
 # 3204-CourseWork2
 
+## Prerequisits
+1. Python3
+2. cloned repo to working directory
+3. 
+
+
 ## Dependicies
 `pip install -r requirements.txt`
 
@@ -10,4 +16,6 @@
 4. Select the kernel tab at the top and click on 'Restart and Run All'
 
 ## Viewing Dashboard
-1. Once the last cell has started running, a message will be displayed saying the flask server has been started with the given url. Click on the URL and the graphs will be displayed
+1. While on the jupyter notebook, ensure that the last cell with the code `app.run()` has been executed and wait for a message to be displayed
+2. Once the message has been displayed saying the flask server has been started. Click on the given url to view the dashboard
+
