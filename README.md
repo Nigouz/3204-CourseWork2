@@ -12,7 +12,7 @@
 ## Running the Codes
 1. Once dependicies are installed, launch jupyter notebook using `jupyter notebook` or running the app
 2. Wait for the app to automatically launch the default browser and load the default page at http://localhost:8888/tree
-3. Locate the cloned Github repositry and open **Coursework2_Integration_latest_cleanest.ipynb**
+3. Locate the cloned Github repositry using the web browser and open **Coursework2_Integration_latest_cleanest.ipynb**
 4. Select the kernel tab at the top and click on 'Restart and Run All'
 
 ## Viewing Dashboard
