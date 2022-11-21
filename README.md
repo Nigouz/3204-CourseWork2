@@ -3,7 +3,7 @@
 ## Prerequisits
 1. Python3
 2. cloned repo to working directory
-3. 
+3. 16 GB of RAM
 
 
 ## Dependicies
